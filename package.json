@@ -1,0 +1,27 @@
+{
+  "name": "remove-rf",
+  "version": "1.0.2",
+  "description": "Remove directory which is not empty.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test",
+    "prettier": "prettier --write '{,!(node_modules)/**/}*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekchuank/remove-rf.git"
+  },
+  "keywords": [
+    "rm",
+    "rf"
+  ],
+  "author": "derekchuank",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derekchuank/remove-rf/issues"
+  },
+  "homepage": "https://github.com/derekchuank/remove-rf#readme",
+  "devDependencies": {
+    "dup-r": "^1.0.0"
+  }
+}
